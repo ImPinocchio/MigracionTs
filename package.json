@@ -1,0 +1,25 @@
+{
+  "name": "personas-api",
+  "version": "1.0.0",
+  "description": "Personas API",
+  "license": "ISC",
+  "author": "Angel Pincay",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env app.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/app.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
